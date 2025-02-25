@@ -10,6 +10,7 @@ body {
     height:auto;
     margin: auto;
     line-height: 1.6;
+    background-color: transparent;
 }
 
 .Introduction {
@@ -18,6 +19,7 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
     background-image: linear-gradient(#d4a0a7, #5da271);
+    background-color: transparent;
     font-size: 20px;
     padding: 200px;
     position: sticky;
@@ -28,7 +30,8 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT';
 }
 
-.Name:hover {
+.Name:hover,
+.Name:focus-visible {
     color: #d26cb0
 }
 
@@ -66,21 +69,37 @@ p {
     color: #5da271;
 }
   
-img {
-    border-radius: 8px;
-    max-height: 180px;
-}
-
-img:hover {
-    max-height: 300px;
-    max-width: 1000px;
-}
-
 
 h2 {
     color:white solid;
     font-family: 'Gill Sans', 'Gill Sans MT';
 }
+
+header{ 
+    position: sticky;
+    background-color: red;
+    background-color: transparent;
+    margin: -10px;
+}
+
+img {
+    max-height: 50px;
+    display: inline-block;
+    border: none;
+    margin-right: 10px;
+    background-color: transparent;
+}
+
+#Linked-In {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#Resume {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 
 .Cyber{
     background-color: white;
@@ -89,7 +108,7 @@ h2 {
     padding-left: 40px;
     text-align: center;
     position: sticky;
-    margin-top: 60px;
+    margin-top: 50px;
     margin-right: 60px;
     margin-bottom: 40px;
 }
